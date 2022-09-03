@@ -1,3 +1,5 @@
+##  Namespace nedir?
+
 XML (genişletilebilir İşaretleme Dili), HTML'ye çok benzeyen, kendi kendini tanımlayan ve bilgileri depolamak ve taşımak için tasarlanmış,
 yazılım ve donanımdan bağımsız bir araçtır. XML'in temel özelliklerinden biri, öğe adlarının geliştirici tarafından atanması ve bunun,
 tek bir uygulama tarafından birden çok XML belgesi kullanıldığında çakışmalara neden olma eğiliminde olmasıdır.
