@@ -51,5 +51,3 @@ veri tabanımızın büyüklüğüne göre ve orada ki ilişkilerin çokluğuna 
 Yukarıda ki basit örnekten yolaçıkarsak, lazy loading ile birbiriyle ilişkili olan entityler ihtiyaç oldukça çekilir.
 Bu da bize içinde bulunduğumuz case’e göre performans açısından yarar sağlayabilir.Eager loading’e göre veritabanına çok daha fazla kez bağlanır
 ve sorgu atar bunun da program için bir maliyeti vardır. Eager loading ise tek sorguda gerekli bilgileri elde eder.
-Lazy loading ve Eager loading arasındaki çalışma hızı farkını değerlendirecek olursak, lazy loadingin tekrar tekrar
-database’e bağlanması sebebiyle hızı kayıt sayısı arttıkça eager loadingin üzerine çıkıyor.
