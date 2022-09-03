@@ -1,7 +1,7 @@
-##Lazy Loading vs Eager Loading
+## Lazy Loading vs Eager Loading
 Entity frameworkün yazılan LINQ sorgularına bağlı olarak veriyi veri tabanından yüklemek için kullandığı loading yöntemleridir.
 
-Lazy Loading
+### Lazy Loading
 
 Lazy Loading, sayfada yer alan bir ögenin ihtiyaç duyulmadığı takdirde çağrılmaması prensibi ile çalışır
 yani bir nesne örneğinin gerçekten ihtiyaç duyulacağı ana kadar alınmaması ve bekletilmesi amacıyla kullanılır.
@@ -18,7 +18,7 @@ UserDeatils ud = usr.UserDetails; // UserDetails are loaded here
 ```
 Buda her yeni yükleme için veritabanına bir sorgu atılması demektir.
 
-Eager Loading
+### Eager Loading
 
 Lazy Loading’in tam tersi yönde çalışır.
 Kullanacağımız nesneleri, nesnenin ihtiyaç anından çok önce yaratır ve bekletir.
@@ -43,7 +43,7 @@ User usr = dbContext.Users
 ```
 Bu, ilişkili varlıkları sorgunun bir parçası olarak döndüren ve bir kerede büyük miktarda veri yükleyen yöntem bize zaman ve hız kazandırıyor.
 
-Avantaj/Dezavantajları
+### Avantaj/Dezavantajları
 
 İki farklı yönteminde kendine göre avantajı ve dezaavantajı vardır bunlar geliştirmekte olduğumuz uygulamanın ihtiyaçlarına göre
 veri tabanımızın büyüklüğüne göre ve orada ki ilişkilerin çokluğuna göre değişir.
