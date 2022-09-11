@@ -1,4 +1,7 @@
 
 
-Uploading Android Emulator - Pixel_2_API_31_5554 2022-09-11 19-21-12.mp4…
+
+
+
+https://user-images.githubusercontent.com/99819569/189538720-14a44700-c9ef-46f4-95c0-1a02cb77fa29.mp4
 
