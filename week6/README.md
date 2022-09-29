@@ -11,4 +11,4 @@ bir log işlemi var bu işlemde network(IO) işlemi bekleyeceği için bunuda be
 CoroutineScope'u kapatıyor fakat background da çalışıyor,sonra döngümüz başlıyor döngümüz 
 başlayınca Main thread kitleniyor ama IO thread kitlenmez IO threadteki network cevabımız
 2 saniye sonra gelir ama cevap geldiğinde CoroutineScope(Dispatchers.Main) içerisindeki 
-kod çalışmaz Çünkü main threadimiz döngü tarafından kitleniyor.
+kod çalışmaz Çünkü main threadimiz döngü tarafından kitleniyor..
