@@ -3,7 +3,7 @@
 ### 2 -) Döngü kitlenmeden sonsuza doğru sayacımızı artırmaya devam etti.
 ### 3 -) Hayır kitlenmeye sebep olur ve çalışmaz döngümüz sınırlı bir döngü olsaydı döngü sonunda çalışacaktı.
 
-## Buradan ne çıkardım ?
+## Buradan ne çıkardım ? <br>
 
 Program sırasıyla kodumuz çalışıyor,CoroutineScope çalışıyor IO'da network operasyonunu yaptı,
 suspend function olduğu için askıya alındı. Sonra diğer satırları okuyor, Main thread üzerinde 
