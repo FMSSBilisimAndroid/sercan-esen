@@ -12,3 +12,7 @@ CoroutineScope'u kapatıyor fakat background da çalışıyor,sonra döngümüz 
 başlayınca Main thread kitleniyor ama IO thread kitlenmez IO threadteki network cevabımız
 2 saniye sonra gelir ama cevap geldiğinde CoroutineScope(Dispatchers.Main) içerisindeki 
 kod çalışmaz Çünkü main threadimiz döngü tarafından kitleniyor..
+
+
+
+<img src="https://user-images.githubusercontent.com/99819569/193056326-5360b129-d5d1-4257-abee-4416d198c50f.png" width="30%" height="30%"/>
